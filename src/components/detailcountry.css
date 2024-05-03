@@ -1,0 +1,6 @@
+p {
+  @apply mb-1 font-semibold dark:text-white text-[18px];
+}
+p span {
+  @apply font-normal text-gray-500 dark:text-white text-[18px];
+}

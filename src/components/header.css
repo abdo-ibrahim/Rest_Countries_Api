@@ -1,0 +1,13 @@
+header {
+  background: #fff;
+  padding: 15px 0px;
+  min-height: 50px;
+  border-bottom: 1px solid #22222215;
+}
+
+header .container {
+  @apply flex items-center justify-between gap-2;
+}
+.light-image {
+  filter: brightness(0) invert(1);
+}

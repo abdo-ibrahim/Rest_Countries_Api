@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-gray-300 dark:bg-dark-300;
+  font-family: "Nunito Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+*:focus {
+  outline: none;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.container {
+  @apply mx-auto px-[15px];
+}
+::webkit-scrollbar {
+  width: 15px;
+}
+::webkit-scrollbar-track {
+  background: #fff;
+}
+::webkit-scrollbar-thumb {
+  background: blue;
+}
+::webkit-scrollbar-thumb:hover {
+  background: darkblue;
+}
